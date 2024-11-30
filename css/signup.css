@@ -1,0 +1,71 @@
+/*********** Start Global Styles  ***********/
+body{
+    font-family: sans-serif;
+    background-color: #24353F;
+    color:#fff;
+}
+
+/*********** End Global Styles  ***********/
+
+
+/*********** Start  Section  ***********/
+.inner
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.inner h1 
+{
+    color: #17A2B8;
+}
+.inner button 
+{
+    color: #17A2B8;
+    background-color: transparent;
+    border-color: #17A2B8;
+    transition: all 0.5s;
+}
+.inner button:hover
+{
+    color:#fff ;
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+.inner a
+{
+    color:#fff ;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.inner a:hover
+{
+    text-decoration:underline;
+    
+}
+.inner input
+{
+    background-color: transparent;
+    border-color: #B6B6AF;
+    color: #ffff;
+}
+.inner input::placeholder
+{
+    color: #B6B6AF;
+}
+.inner input:focus
+{
+    color: #ffff;
+}
+.inner .form-control:focus
+{
+    background-color: transparent;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.inner .note
+{
+    text-align: left;
+    color: #ffffff;
+    background-color: #17A2B8;
+    font-size: 14px;
+}
+
+/*********** End  Section  ***********/

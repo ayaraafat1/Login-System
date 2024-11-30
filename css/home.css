@@ -1,0 +1,62 @@
+/*********** Start Global Styles  ***********/
+body{
+    font-family: sans-serif;
+    background-color: #24353F;
+    color:#fff;
+}
+/*********** End Global Styles  ***********/
+
+/*********** Start  navbar  ***********/
+.my-nav
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.my-nav .nav-btn 
+{
+    color:#b6b6afbb; 
+    font-size: 24px; 
+    border:#b6b6afbb 1px solid; 
+    padding: 8px 15px;
+}
+.my-nav .nav-btn:focus 
+{
+    box-shadow: 0 0 0px 2px #fff ;
+}
+.my-btn
+{
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.my-btn a{
+    color: #B6B6AF;
+}
+.my-btn:hover a
+{
+    color: #fff;
+}
+@media screen and (max-width: 992px)
+{
+    .my-btn
+    {
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+/*********** End  navbar  ***********/
+
+/*********** Start  Section  ***********/
+.inner
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    width: 70%;
+}
+.inner h1 
+{
+    color: #17A2B8;
+}
+
+/*********** End  Section  ***********/

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <!-- ============ Start FONTAWESOME LIBRAIRY ============ -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ============ End FONTAWESOME LIBRAIRY ============ -->
+
+    <!-- ============ Start BOOTSTRAP CSS ============ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- ============ End BOOTSTRAP CSS ============ -->
+
+    <!-- ============ Start  CSS ============ -->
+    <link rel="stylesheet" href="css/signup.css" />
+    <!-- ============ End CSS ============ -->
+  </head>
+
+  <body>
+    <!--  ============  Start  main   ============ -->
+    <main>
+      <!--  ============  Start  Section   ============ -->
+      <section>
+        <div class="container my-4 text-center">
+          <div class="inner m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input
+              id="signupName"
+              class="form-control mt-4 mb-1"
+              placeholder="Enter your name"
+              type="text"
+            />
+            <p class="alert note name-note d-none">
+              "Username must be 3-10 characters long and can include letters,
+              numbers, underscores (_), or hyphens (-)."
+            </p>
+            <input
+              id="signupEmail"
+              class="form-control mt-4 mb-1"
+              placeholder="Enter your email"
+              type="email"
+            />
+            <p class="alert note email-note d-none">
+              "Email Requirements: Must start with at least 4 characters before
+              @ , followed by a valid domain name (e.g., example.com), and end
+              with at least 2 letters (e.g., .com, .org)."
+            </p>
+            <input
+              id="signupPassword"
+              class="form-control mt-4 mb-1"
+              placeholder="Enter password"
+              type="password"
+            />
+            <p class="alert note passward-note d-none">
+              "Password must be at least 5 characters long and contain only
+              letters and numbers."
+            </p>
+            <span class="my-note d-block mt-3"></span>
+            <button id="signup" class="btn w-100 my-3">Sign up</button>
+            <p>You have an account? <a href="index.html">Signin</a></p>
+          </div>
+        </div>
+      </section>
+      <!--  ============  End  Section   ============ -->
+    </main>
+    <!--  ============  End  main   ============ -->
+
+    <!-- ============ Start BOOTSTRAP JS ============ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- ============ End BOOTSTRAP JS ============ -->
+
+    <!-- ============ Start JS ============ -->
+    <script src="js/signup.js"></script>
+    <!-- ============ End  JS ============ -->
+  </body>
+</html>
